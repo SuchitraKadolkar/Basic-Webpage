@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href='basic.css' rel='stylesheet'>
+        <title>Umbrella</title>
+    </head>
+    <body>
+        <div>
+            <table style="width:100%">
+                <tr>
+                    <td>
+                        <div id="imageContainer" class="parent">
+                            <img src="Images/Blue umbrella.png" id="myImage" class="imgleft">
+                            <img id="loaderImage" class="hidden" src="Images/loader_icon.svg" alt="Loading...">
+                            <img class="overlay-image" id="imageElement" src="" alt="Overlay Image" style="display: none;">
+                        </div>
+                        
+                    </td>
+                    <td>
+                        <h1>Custom Umbrella</h1>
+                        <button class="b1" onclick="changeBackgroundColor(this)"></button>
+                        <button class="b2" onclick="changeBackgroundColor(this)"></button>
+                        <button class="b3" onclick="changeBackgroundColor(this)"></button>
+                        <button class="b4" onclick="changeBackgroundColor(this)"></button>
+                        <button class="b5" onclick="changeBackgroundColor(this)"></button>
+                        <button class="b6" onclick="changeBackgroundColor(this)"></button>
+                        <button class="b7" onclick="changeBackgroundColor(this)"></button>
+                        <button class="b8" onclick="changeBackgroundColor(this)"></button><br><br>
+                        <h3>Customize your umbrella</h3>
+                        <h4>Upload a logo for an instant preview.</h4>
+                        <h4>.png and .jpg files only. Max file size is 5MB.</h4>
+                        <input type="file" id="fileInput" accept=".jpg, .png" class="hidden">
+                        <button class="uploadbutton" id="btnid" onclick="changeBackgroundColor(this)">
+                                <img src="Images/upload_icon.svg">UPLOAD LOGO
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+body{
+    background-color: #d4f1f4;
+}
+td{
+    padding: 6%;
+    padding-top: 15%;
+    padding-right: 0.1%;
+}
+table{
+    border-spacing: 5px;
+}
+h1{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3,h4{
+    padding: 0.01%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    border: none;
+    padding: 18px;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.b1{
+    background-color: black;
+}
+.b2{
+    background-color: grey;
+}
+.b3{
+    background-color: blue;
+}
+.b4{
+    background-color: rgb(216, 112, 204);
+}
+.b5{
+    background-color: aqua;
+}
+.b6{
+    background-color: yellow;
+}
+.b7{
+    background-color: orange;
+}
+.b8{
+    background-color: red;
+}
+.uploadbutton{
+    border-radius: 0%;
+    width: 65%;
+    color: white;
+    background-color: skyblue;
+    font-size: 20px;
+}
+img{
+    float: left;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+.imgleft{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-left: 6%;
+    height: 450px;
+    width: 520px;
+    z-index: 1;
+}
+.hidden {
+    display: none;
+}
+#loaderImage {
+    width: 200px; /* Set the desired smaller size */
+    height: 200px; /* Set the desired smaller size */
+    animation: rotate 2s linear infinite; /* Apply rotation animation */
+}
+.overlay-image {
+    position: center;
+    top: 30;
+    left: 10;
+    z-index: 3;
+    height: 100px;
+    width: 200px;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg); /* Start rotation from 0 degrees */
+    }
+    to {
+        transform: rotate(360deg); /* End rotation at 360 degrees (full circle) */
+    }
+}
